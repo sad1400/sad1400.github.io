@@ -10,8 +10,8 @@
 		<h2>Элемент <code>img</code></h2>
 
 		<p>Элемент <code>img</code> внедряет изображение в текущий документ в месте определения элемента. Элемент <code>img</code> не имеет содержимого — он замещается на ходу изображением, указанным в атрибуте <code>src</code>.</p>
-		<figure><img src="images/aquaria.jpg" alt="Донателло">
-		<figcaption>Донателло</figcaption>
+		<figure><img src="images/aquaria.jpg" alt="Черепашка">
+		<figcaption>Черепашка</figcaption>
 	</figure>
 		<h2>Альтернативный текст</h2>
 		<p>Атрибут <code>alt</code> предоставляет краткое описание изображения. Он содержит альтернативный текст, который отображается, если изображение не может быть выведено. Пользовательские агенты должны отображать альтернативный текст, если они не поддерживают изображения, или сконфигурированы так, чтобы не показывать изображения (отключен показ изображений).</p>
@@ -24,8 +24,8 @@
 		Если задан только один из атрибутов, второй размер будет высчитан в соответствие с пропорциями изображения и заданным атрибутом.
 		При указании обоих атрибутов ПА «впишет» изображение в область с указанными размерами.</p>
 		<figure>
-			<img src="images/mushroom_portrait.jpg" alt="Мухомор"  width="120" height="120">
-		<figcaption>Мухомор</figcaption>
+			<img src="images/mushroom_portrait.jpg" alt="Портрет гриба"  width="120" height="120">
+		<figcaption>Портрет гриба</figcaption>
 	</figure>
 		<p>Для добавления гибких (responsive) изображений (таких, 
 		которые отображаются хорошо на устройствах с сильно отличающимися размерами экрана, разрешением, и другими характеристиками)
@@ -36,7 +36,7 @@
 		<figure>
 		<img src="images/mushroom_portrait.jpg" srcset="images/mushroom_portrait.jpg 350w, images/mushroom_landscape.jpg 650w" 
 		sizes="(max-width: 600px) 300px, (min-width: 600px) 600px"
-		alt="Мухомор" >				<figcaption>Мухомор</figcaption>
+		alt="Гриб" >				<figcaption>Гриб</figcaption>
 	</figure>
 		<h2>Подпись к изображению</h2>
 		<p>Для группирования любых элементов, например, изображений и подписей к ним используется элемент <code>figure</code>.
@@ -45,7 +45,7 @@
 		Элемент <code>figcaption</code> содержит описание для элемента <code>figure</code>. Он должен быть первым или последним элементом в группе.</p>
 		<figure>
 			<p><img src="images/muscle.png"></p>
-			<figcaption>muscle</figcaption>
+			<figcaption>мускулы</figcaption>
 		   </figure>
 		<h2>Элемент picture</h2>
 		<p>
@@ -59,9 +59,9 @@
 		<figure>
 		<picture>
 			<source srcset="images/html5-logo.svg">
-			<img src="images/html5-logo.png" width="256" height="256" alt="HTML5">
+			<img src="images/html5-logo.png" width="256" height="256" alt="HTML 5">
 		   </picture> 
-		   <figcaption>HTML5</figcaption>
+		   <figcaption>HTML 5</figcaption>
 		</figure>
 	</section>
 </body>
